@@ -17,7 +17,7 @@ public class mystring {
 		int i , n = Text.length();
 		
 		
-		char[] Temp;
+		char[] Temp = new char[n+1];
 		Temp = Text.toCharArray();
 		Text = "";
 		
